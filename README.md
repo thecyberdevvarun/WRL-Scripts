@@ -20,6 +20,7 @@ The goal of this repository is to:
 ```
 /
 ├── chem_live_data/
+├── nfc_reader/
 └── README.md
 ```
 
