@@ -1,0 +1,100 @@
+{
+  "date": "2026-06-04",
+  "records": [
+    {
+      "event_id": "EVT-100001",
+      "event_type": "Production",
+      "barcode": "BC123456789",
+      "start_time": "08:00:00",
+      "end_time": "08:15:00",
+      "duration": "00:15:00",
+      "parts_quantity": 120,
+      "parts_quality": "Good",
+      "operator_name": "John Smith",
+      "downtime_reason": null,
+      "downtime_comment": null,
+      "asset_name": "CNC Machine 01",
+      "line_name": "Line A",
+      "energy": 15.75,
+      "shift": {
+        "shift_name": "Morning"
+      }
+    },
+    {
+      "event_id": "EVT-100002",
+      "event_type": "Downtime",
+      "barcode": "BC123456790",
+      "start_time": "09:30:00",
+      "end_time": "09:50:00",
+      "duration": "00:20:00",
+      "parts_quantity": 0,
+      "parts_quality": "N/A",
+      "operator_name": "John Smith",
+      "downtime_reason": "Maintenance",
+      "downtime_comment": "Scheduled preventive maintenance",
+      "asset_name": "CNC Machine 01",
+      "line_name": "Line A",
+      "energy": 2.10,
+      "shift": {
+        "shift_name": "Morning"
+      }
+    },
+    {
+      "event_id": "EVT-100003",
+      "event_type": "Production",
+      "barcode": "BC123456791",
+      "start_time": "10:00:00",
+      "end_time": "10:45:00",
+      "duration": "00:45:00",
+      "parts_quantity": 340,
+      "parts_quality": "Good",
+      "operator_name": "Alice Johnson",
+      "downtime_reason": null,
+      "downtime_comment": null,
+      "asset_name": "CNC Machine 02",
+      "line_name": "Line B",
+      "energy": 28.40,
+      "shift": {
+        "shift_name": "Morning"
+      }
+    },
+    {
+      "event_id": "EVT-100004",
+      "event_type": "Production",
+      "barcode": "BC123456792",
+      "start_time": "14:00:00",
+      "end_time": "14:30:00",
+      "duration": "00:30:00",
+      "parts_quantity": 210,
+      "parts_quality": "Rework",
+      "operator_name": "David Wilson",
+      "downtime_reason": null,
+      "downtime_comment": null,
+      "asset_name": "Assembly Station 03",
+      "line_name": "Line C",
+      "energy": 18.90,
+      "shift": {
+        "shift_name": "Afternoon"
+      }
+    },
+    {
+      "event_id": "EVT-100005",
+      "event_type": "Downtime",
+      "barcode": "BC123456793",
+      "start_time": "16:15:00",
+      "end_time": "16:35:00",
+      "duration": "00:20:00",
+      "parts_quantity": 0,
+      "parts_quality": "N/A",
+      "operator_name": "David Wilson",
+      "downtime_reason": "Power Failure",
+      "downtime_comment": "Unexpected power interruption",
+      "asset_name": "Assembly Station 03",
+      "line_name": "Line C",
+      "energy": 0.00,
+      "shift": {
+        "shift_name": "Afternoon"
+      }
+    }
+  ]
+}
