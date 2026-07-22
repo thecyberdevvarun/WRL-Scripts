@@ -5,13 +5,13 @@ from datetime import datetime
 # =========================
 # CONFIG
 # =========================
-SERVER = "10.100.95.160"
-DATABASE = "Tool_Report_WRL_LIVE"
-USERNAME = "sa"
-PASSWORD = "TnTMES@2022"
+SERVER = "SERVER_IP"
+DATABASE = "DB_NAME"
+USERNAME = "USERNAME"
+PASSWORD = "PASSWORD"
 
-FILE_PATH = r"D:\MFG Working\Vikash\Part Process\json_output\2026-06-04.json"
-TABLE_NAME = "PartProcessEvents"
+FILE_PATH = r"JSON_FILE_PATH"
+TABLE_NAME = "TABLE_NAME"
 
 # =========================
 # DB CONNECTION
